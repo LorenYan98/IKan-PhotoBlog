@@ -1,0 +1,79 @@
+body {
+  font-family: "Quicksand", sans-serif;
+
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+div.desc {
+ padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.box{
+  
+  offset: 10px;
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+.root{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+  grid-auto-flow: dense;
+
+  offset: 10px;
+  overflow: hidden;
+  box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 1em;
+  background: #ECE9E6;
+  background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+}
+.root p{
+margin-left: 10px;
+margin-right: 10px;
+font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+
+.time{
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.userName{
+font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+.gallery{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.gallery .image{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gallery .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  cursor: pointer;
+  transition:.5s ease-in-out;
+}
+
+.gallery:hover .image img{
+  transform: scale(1.05);
+}

@@ -1,0 +1,26 @@
+.cs142-topbar-appBar {
+  height: 60;
+  justify-content: 'center';
+}
+
+#right {
+  position: absolute;
+  right: 30px;
+}
+
+#buttonRight {
+  position: absolute;
+  right: 140px;
+}
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 6px
+}
+
+.favorite{
+  margin-left: 6px;
+  padding-left: 6px;
+}

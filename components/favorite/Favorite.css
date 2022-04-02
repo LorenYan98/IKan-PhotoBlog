@@ -1,0 +1,12 @@
+.flex-box {
+    display:flex;
+    justify-content:space-between;
+ 
+  }
+  
+  .flex-box-2 {
+    display:flex;
+    justify-content: flex-start;
+   height: min-content;
+   margin: 5px;
+  }
